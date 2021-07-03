@@ -789,11 +789,13 @@ body.ie .ibg img {
 	-o-transition: color 0.3s ease 0s;
 	transition: color 0.3s ease 0s;
 }
-.menu__link--act {
+.menu__link._act {
 	color: #ada074;
 }
-.menu__link:hover {
-	color: #ada074;
+@media (min-width: 992px) {
+	.menu__link:hover {
+		color: #ada074;
+	}
 }
 
 .about {
